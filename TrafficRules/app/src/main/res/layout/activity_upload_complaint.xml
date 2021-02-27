@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadComplaint"
+    android:background="@drawable/upc">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:onClick="btnBrowse_Click"
+        android:text="Browse image to upload"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="331dp"
+        android:layout_height="198dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="62dp" />
+
+    <EditText
+        android:id="@+id/cmptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="Enter Complaint Name"
+         />
+
+    <Button
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
+        android:onClick="btnUpload_Click"
+        android:text="Upload image"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/cdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="194dp"
+        android:ems="10"
+        android:hint="Ente Comlaint Description"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/psspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp" />
+
+</RelativeLayout>

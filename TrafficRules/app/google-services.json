@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "355708145709",
+    "firebase_url": "https://trafficrules-148ef.firebaseio.com",
+    "project_id": "trafficrules-148ef",
+    "storage_bucket": "trafficrules-148ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355708145709:android:ce7904fe416fbdb2",
+        "android_client_info": {
+          "package_name": "gvs.com.trafficrules"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355708145709-u71if0kn4o8ed2lrtq7hdnfc5tq965um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gvs.com.trafficrules",
+            "certificate_hash": "d91f9a93f5f01ae85f3f9181c0390824f15b0f42"
+          }
+        },
+        {
+          "client_id": "355708145709-35loc1rmos4c5o16dtcciubir4evbbs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrp_IHit1YXx2Qun5C41ccGBa_iavCxDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355708145709-35loc1rmos4c5o16dtcciubir4evbbs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

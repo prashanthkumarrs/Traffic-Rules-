@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vcomp"
+            android:title="View Complaints" />
+        <item
+            android:id="@+id/vcstatus"
+            android:title="Conform/Ignore Complaint Status " />
+        <item
+            android:id="@+id/gchalana"
+            android:title="Generate Chalana" />
+        <item
+            android:id="@+id/tlogout"
+            android:title="Logout" />
+    </group>
+
+
+
+</menu>

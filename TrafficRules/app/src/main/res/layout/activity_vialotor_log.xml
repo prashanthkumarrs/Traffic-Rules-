@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VialotorLog"
+    android:background="@drawable/vlo">
+    <EditText
+        android:id="@+id/vphone"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="286dp"
+        android:ems="10"
+        android:hint="Enter  OTP"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/reg_user"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="192dp"
+        android:onClick="vLog"
+        android:text=""
+        android:background="@drawable/vl"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="Vialator Login Here"
+        android:textSize="25dp"
+        android:textColor="#00ffcc"/>
+</RelativeLayout>
